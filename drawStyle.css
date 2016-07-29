@@ -1,0 +1,55 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin:0;
+}
+
+.cell {
+	height:35px;
+	width:35px;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	font-size:0;
+	float:left;
+	position:relative;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.hovered {
+	background-color:#0a0;
+}
+
+#clearButton {
+	position:absolute;
+	top:15px;
+	left:555px;
+	height:50px;
+	width:150px;
+}
+
+.mainSquare {
+	padding:0;
+	left:350px;
+	top:75px;
+	height:560px;
+	width:561px;
+	border-top:1px solid black;
+	position:relative;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.line {
+	height:35px;
+	width:100%;
+	position:relative;		
+	border-left:1px solid black;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
